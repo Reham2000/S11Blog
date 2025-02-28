@@ -1,0 +1,12 @@
+D:\.net projects\S11_Blog\Infrasitructure\bin\Debug\net8.0\Infrasitructure.deps.json
+D:\.net projects\S11_Blog\Infrasitructure\bin\Debug\net8.0\Infrasitructure.dll
+D:\.net projects\S11_Blog\Infrasitructure\bin\Debug\net8.0\Infrasitructure.pdb
+D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\Infrasitructure.csproj.AssemblyReference.cache
+D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\Infrasitructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\Infrasitructure.AssemblyInfoInputs.cache
+D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\Infrasitructure.AssemblyInfo.cs
+D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\Infrasitructure.csproj.CoreCompileInputs.cache
+D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\Infrasitructure.dll
+D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\refint\Infrasitructure.dll
+D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\Infrasitructure.pdb
+D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\ref\Infrasitructure.dll
