@@ -1,10 +1,18 @@
+using Core.Services;
 using Infrasitructure.Data;
+using Infrasitructure.IRepository;
+using Infrasitructure.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//builder.Services.AddTransient(); // new object for evry request
+builder.Services.AddScoped(typeof(IBaseRepository<>),typeof(BaseRepository<>)); // new object for One request
+//builder.Services.AddSingleton<PostService>(); // one object for all request
+builder.Services.AddScoped<PostService>(); 
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Con"))

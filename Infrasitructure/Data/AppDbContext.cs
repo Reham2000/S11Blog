@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Domain.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +13,6 @@ namespace Infrasitructure.Data
         public AppDbContext(DbContextOptions options) : base(options)
         {
         }
+        public DbSet<Post> Posts { get; set; }
     }
 }

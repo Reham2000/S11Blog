@@ -10,3 +10,9 @@ D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\Infrasitructure.dll
 D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\refint\Infrasitructure.dll
 D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\Infrasitructure.pdb
 D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\ref\Infrasitructure.dll
+D:\.net projects\S11_Blog\Infrasitructure\bin\Debug\net8.0\Infrasitructure.runtimeconfig.json
+D:\.net projects\S11_Blog\Infrasitructure\bin\Debug\net8.0\Domain.dll
+D:\.net projects\S11_Blog\Infrasitructure\bin\Debug\net8.0\Domain.pdb
+D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\Infrasitructure.sourcelink.json
+D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\Infrasit.0F824E8C.Up2Date
+D:\.net projects\S11_Blog\Infrasitructure\obj\Debug\net8.0\Infrasitructure.genruntimeconfig.cache

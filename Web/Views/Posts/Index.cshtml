@@ -1,0 +1,33 @@
+﻿@model List<Post>
+<h1>Posts</h1>
+<a asp-controller="Posts" asp-action="Create" class="btn btn-primary my-3">Create</a>
+
+<table class="table-bordered table-hover text-center w-100">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Content</th>
+            <th>Created</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var post in Model)
+        {
+            <tr>
+                <td>@post.Id</td>
+                <td>@post.Title</td>
+                <td>@post.Content</td>
+                <td>@post.CreatedAt</td>
+                <td>
+                    <a asp-controller="Posts" asp-action="Edit" asp-route-Id="@post.Id" class="btn btn-warning" >Edite</a>
+                    <a asp-controller="Posts" asp-action="Details" asp-route-Id="@post.Id" class="btn btn-primary" >Details</a>
+                    <a asp-controller="Posts" asp-action="Delete" asp-route-Id="@post.Id" class="btn btn-danger" >Delete</a>
+                    @* @Html.ActionLink("Edit","Update","Posts"); *@
+                    @* Url.Action("update","Posts"); *@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
