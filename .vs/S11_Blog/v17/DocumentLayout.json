@@ -7,16 +7,52 @@
       "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\.net projects\\s11_blog\\web\\views\\shared\\_theme1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\shared\\_theme1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\.net projects\\s11_blog\\web\\views\\posts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\posts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\.net projects\\s11_blog\\web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\.net projects\\s11_blog\\web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\.net projects\\s11_blog\\web\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07E62876-6E90-4F29-8AE4-114BE74CA4F3}|Core\\Core.csproj|d:\\.net projects\\s11_blog\\core\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07E62876-6E90-4F29-8AE4-114BE74CA4F3}|Core\\Core.csproj|solutionrelative:core\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\.net projects\\s11_blog\\web\\views\\posts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\posts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\.net projects\\s11_blog\\web\\views\\posts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\posts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\.net projects\\s11_blog\\web\\views\\posts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\posts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\.net projects\\s11_blog\\web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|d:\\.net projects\\s11_blog\\domain\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|solutionrelative:domain\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|d:\\.net projects\\s11_blog\\infrasitructure\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|solutionrelative:infrasitructure\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07E62876-6E90-4F29-8AE4-114BE74CA4F3}|Core\\Core.csproj|d:\\.net projects\\s11_blog\\core\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07E62876-6E90-4F29-8AE4-114BE74CA4F3}|Core\\Core.csproj|solutionrelative:core\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\.net projects\\s11_blog\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|d:\\.net projects\\s11_blog\\infrasitructure\\irepository\\ipostrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|solutionrelative:infrasitructure\\irepository\\ipostrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|d:\\.net projects\\s11_blog\\domain\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|solutionrelative:domain\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|d:\\.net projects\\s11_blog\\infrasitructure\\migrations\\20250307080902_posttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,8 +102,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 167,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\.net projects\\S11_Blog\\Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T09:39:24.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Theme1.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Views\\Shared\\_Theme1.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Shared\\_Theme1.cshtml",
+              "ToolTip": "D:\\.net projects\\S11_Blog\\Web\\Views\\Shared\\_Theme1.cshtml",
+              "RelativeToolTip": "Web\\Views\\Shared\\_Theme1.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T09:33:05.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.net projects\\S11_Blog\\Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T09:13:20.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Views\\Posts\\Details.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Posts\\Details.cshtml",
+              "ToolTip": "D:\\.net projects\\S11_Blog\\Web\\Views\\Posts\\Details.cshtml",
+              "RelativeToolTip": "Web\\Views\\Posts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T08:18:39.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Views\\Posts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Posts\\Edit.cshtml",
+              "ToolTip": "D:\\.net projects\\S11_Blog\\Web\\Views\\Posts\\Edit.cshtml",
+              "RelativeToolTip": "Web\\Views\\Posts\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T08:01:56.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\.net projects\\S11_Blog\\Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T07:51:13.116Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -80,53 +188,63 @@
               "RelativeDocumentMoniker": "Web\\Views\\Posts\\Index.cshtml",
               "ToolTip": "D:\\.net projects\\S11_Blog\\Web\\Views\\Posts\\Index.cshtml",
               "RelativeToolTip": "Web\\Views\\Posts\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAF4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-07T09:15:54.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Views\\Posts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Posts\\Delete.cshtml",
+              "ToolTip": "D:\\.net projects\\S11_Blog\\Web\\Views\\Posts\\Delete.cshtml",
+              "RelativeToolTip": "Web\\Views\\Posts\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T08:48:46.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Views\\Posts\\Create.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Posts\\Create.cshtml",
+              "ToolTip": "D:\\.net projects\\S11_Blog\\Web\\Views\\Posts\\Create.cshtml",
+              "RelativeToolTip": "Web\\Views\\Posts\\Create.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T07:29:07.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PostsController.cs",
               "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Controllers\\PostsController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\PostsController.cs",
               "ToolTip": "D:\\.net projects\\S11_Blog\\Web\\Controllers\\PostsController.cs",
               "RelativeToolTip": "Web\\Controllers\\PostsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBIAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwFIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T09:08:29.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PostService.cs",
-              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Core\\Services\\PostService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\PostService.cs",
-              "ToolTip": "D:\\.net projects\\S11_Blog\\Core\\Services\\PostService.cs",
-              "RelativeToolTip": "Core\\Services\\PostService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T08:44:08.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Infrasitructure\\Repository\\BaseRepository.cs",
               "RelativeDocumentMoniker": "Infrasitructure\\Repository\\BaseRepository.cs",
               "ToolTip": "D:\\.net projects\\S11_Blog\\Infrasitructure\\Repository\\BaseRepository.cs",
               "RelativeToolTip": "Infrasitructure\\Repository\\BaseRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABcAAADQzMzMzMwmwCAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T08:18:23.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T08:18:23.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "IBaseRepository.cs",
               "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Infrasitructure\\IRepository\\IBaseRepository.cs",
               "RelativeDocumentMoniker": "Infrasitructure\\IRepository\\IBaseRepository.cs",
@@ -134,12 +252,11 @@
               "RelativeToolTip": "Infrasitructure\\IRepository\\IBaseRepository.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAIwA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T08:14:16.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T08:14:16.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "IPostRepo.cs",
               "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Infrasitructure\\IRepository\\IPostRepo.cs",
               "RelativeDocumentMoniker": "Infrasitructure\\IRepository\\IPostRepo.cs",
@@ -147,25 +264,11 @@
               "RelativeToolTip": "Infrasitructure\\IRepository\\IPostRepo.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAIwAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T08:12:03.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T08:12:03.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250307080902_PostTable.cs",
-              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Infrasitructure\\Migrations\\20250307080902_PostTable.cs",
-              "RelativeDocumentMoniker": "Infrasitructure\\Migrations\\20250307080902_PostTable.cs",
-              "ToolTip": "D:\\.net projects\\S11_Blog\\Infrasitructure\\Migrations\\20250307080902_PostTable.cs",
-              "RelativeToolTip": "Infrasitructure\\Migrations\\20250307080902_PostTable.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T08:09:04.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Post.cs",
               "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Domain\\Models\\Post.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Post.cs",
@@ -173,12 +276,35 @@
               "RelativeToolTip": "Domain\\Models\\Post.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAqwBEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T07:45:33.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T07:45:33.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Core\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\PostService.cs",
+              "ToolTip": "D:\\.net projects\\S11_Blog\\Core\\Services\\PostService.cs",
+              "RelativeToolTip": "Core\\Services\\PostService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:44:08.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250307080902_PostTable.cs",
+              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Infrasitructure\\Migrations\\20250307080902_PostTable.cs",
+              "RelativeDocumentMoniker": "Infrasitructure\\Migrations\\20250307080902_PostTable.cs",
+              "ToolTip": "D:\\.net projects\\S11_Blog\\Infrasitructure\\Migrations\\20250307080902_PostTable.cs",
+              "RelativeToolTip": "Infrasitructure\\Migrations\\20250307080902_PostTable.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:09:04.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Program.cs",
               "RelativeDocumentMoniker": "Web\\Program.cs",
@@ -186,12 +312,11 @@
               "RelativeToolTip": "Web\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T09:20:23.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T09:20:23.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "Web.csproj",
               "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Web.csproj",
               "RelativeDocumentMoniker": "Web\\Web.csproj",
@@ -199,12 +324,11 @@
               "RelativeToolTip": "Web\\Web.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-28T09:26:42.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T09:26:42.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Infrasitructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrasitructure\\Data\\AppDbContext.cs",
@@ -212,12 +336,11 @@
               "RelativeToolTip": "Infrasitructure\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAewA8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T09:11:51.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T09:11:51.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\HomeController.cs",
@@ -225,12 +348,11 @@
               "RelativeToolTip": "Web\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T09:28:31.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T09:28:31.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Domain\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\ErrorViewModel.cs",
@@ -238,12 +360,11 @@
               "RelativeToolTip": "Domain\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T09:26:28.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T09:26:28.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\appsettings.json",
               "RelativeDocumentMoniker": "Web\\appsettings.json",
@@ -251,12 +372,11 @@
               "RelativeToolTip": "Web\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-28T09:17:05.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T09:17:05.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Web\\Views\\_ViewImports.cshtml",
@@ -264,8 +384,7 @@
               "RelativeToolTip": "Web\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-28T09:30:37.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T09:30:37.089Z"
             }
           ]
         }
