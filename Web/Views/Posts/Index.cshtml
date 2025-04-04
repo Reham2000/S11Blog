@@ -32,7 +32,8 @@
 @*     </tbody> *@
 @* </table> *@
 
-
+@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment _webHost
+@using System.IO
 @model List<Post>
 
 @{
@@ -54,17 +55,25 @@
             @foreach(var post in Model)
             {
                 <div class="col-lg-4">
-                <article>
-
+                    <article>
+                        @{
+                            string filePath = System.IO.Path.Combine(_webHost.WebRootPath, post.Image.TrimStart('~', '/'));
+                            if (!System.IO.File.Exists(filePath))
+                            {
+                                post.Image = "Images/default.png";
+                            }
+                        
+                        
+                        }
                     <div class="post-img position-relative">
-                        <img src="~/assets/img/blog/blog-post-1.webp" alt="" class="img-fluid">
+                            <img src="@post.Image" alt="img" class="img-fluid">
                        <div class="position-absolute top-0 end-0 mt-2 me-2">
                                 <a asp-action="Edit" asp-Route-Id="@post.Id" class="btn btn-warning text-light"><i class="bi bi-pencil"></i></a>
                                 <a asp-action="Delete" asp-Route-Id="@post.Id" class="btn btn-danger"><i class="bi bi-trash"></i></a>
                        </div>
                     </div>
 
-                    @* <p class="post-category">Politics</p> *@
+                    <p class="post-category">@post.Category.Name</p>
 
                     <h2 class="title">
                         <a href="blog-details.html">@post.Title</a>

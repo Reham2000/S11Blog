@@ -11,8 +11,10 @@ builder.Services.AddControllersWithViews();
 
 //builder.Services.AddTransient(); // new object for evry request
 builder.Services.AddScoped(typeof(IBaseRepository<>),typeof(BaseRepository<>)); // new object for One request
+builder.Services.AddScoped(typeof(IPostRepo),typeof(PostRepo)); // new object for One request
 //builder.Services.AddSingleton<PostService>(); // one object for all request
 builder.Services.AddScoped<PostService>(); 
+builder.Services.AddScoped<CategoryService>(); 
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Con"))

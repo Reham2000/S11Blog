@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Web.zmm9ivslsu.bundle.scp.css"
     },
     {
+      "Id": "D:\\.net projects\\S11_Blog\\Web\\wwwroot\\Images\\Posts\\c906e944-df57-4908-9af7-6bdbf28d21c8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Posts\\c906e944-df57-4908-9af7-6bdbf28d21c8.jpg"
+    },
+    {
+      "Id": "D:\\.net projects\\S11_Blog\\Web\\wwwroot\\Images\\default.png",
+      "PackagePath": "staticwebassets\\Images\\default.png"
+    },
+    {
       "Id": "D:\\.net projects\\S11_Blog\\Web\\wwwroot\\assets\\css\\main.css",
       "PackagePath": "staticwebassets\\assets\\css\\main.css"
     },

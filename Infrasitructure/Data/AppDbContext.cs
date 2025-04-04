@@ -14,5 +14,82 @@ namespace Infrasitructure.Data
         {
         }
         public DbSet<Post> Posts { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            // categories
+            modelBuilder.Entity<Category>().HasData(
+                new Category { Id = 1,Name="tech"},
+                new Category { Id = 2,Name="test"}
+                );
+
+
+            // Posts
+            modelBuilder.Entity<Post>().HasData(
+                new Post
+                {
+                    Id = 1,
+                    Title="title1",
+                    CategoryId=1,
+                    Content ="post content",
+                    CreatedAt = new DateTime(2024,8,5 ),
+                    Image ="x.png"
+                },
+                new Post
+                {
+                    Id = 2,
+                    Title = "title1",
+                    CategoryId = 2,
+                    Content = "post content",
+                    CreatedAt = new DateTime(2024,8,5),
+                    Image = "x.png"
+                }
+                );
+
+            // Comments
+            modelBuilder.Entity<Comment>().HasData(
+                new Comment
+                {
+                    Id = 1,
+                    Content ="comment1",
+                    CommentDate = new DateTime(2024,8,5),
+                    UserName = "reem",
+                    PostId = 1,
+                },
+                new Comment
+                {
+                    Id = 2,
+                    Content = "comment1",
+                    CommentDate = new DateTime(2024,8,5 ),
+                    UserName = "reem",
+                    PostId = 1,
+                }, new Comment
+                {
+                    Id = 3,
+                    Content = "comment1",
+                    CommentDate = new DateTime(2024,8,5 ),
+                    UserName = "reem",
+                    PostId = 1,
+                }, new Comment
+                {
+                    Id = 4,
+                    Content = "comment1",
+                    CommentDate = new DateTime(2024,8,5 ),
+                    UserName = "reem",
+                    PostId = 2,
+                }
+                );
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+            //optionsBuilder.UseLazyLoadingProxies();
+        }
+        
     }
 }

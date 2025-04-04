@@ -7,17 +7,20 @@ namespace Core.Services
     public class PostService
     {
         private readonly IBaseRepository<Post> _postRepo;
+        private readonly IPostRepo _post;
         private readonly Action<string> _logAction;
 
-        public PostService(IBaseRepository<Post> postRepo)
+        public PostService(IBaseRepository<Post> postRepo,IPostRepo post)
         {
             _postRepo = postRepo;
+            _post = post;
             _logAction = message => Console.WriteLine(message);
         }
 
         public async Task<List<Post>> GetAllPosts()
         {
-            return await _postRepo.GetAll();
+            //return await _postRepo.GetAll();
+            return _post.GetAllPosts();
         }
 
         public Post GetPostById(int id)

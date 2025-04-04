@@ -1,6 +1,16 @@
 ﻿@model Post
+@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment _webHost
 @{
     ViewData["Title"] = "Details";
+}
+@{
+    string filePath = System.IO.Path.Combine(_webHost.WebRootPath, Model.Image.TrimStart('~', '/'));
+    if (!System.IO.File.Exists(filePath))
+    {
+        Model.Image = "Images/default.png";
+    }
+
+
 }
 <h1>Details</h1>
 
@@ -9,6 +19,7 @@
         Post - @Model.Id
     </div>
     <div class="card-body">
+        <img src="~/@Model.Image" alt="img"class="w-25" />
         <h5 class="card-title">@Model.Title</h5>
         <p class="card-text">@Model.Content</p>
         <a asp-controller="" asp-action="" class="btn btn-primary">Add Comment</a>
