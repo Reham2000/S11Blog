@@ -11,23 +11,29 @@ namespace Core.Services
 {
     public class CategoryService
     {
-        private readonly IBaseRepository<Category> _catRepo;
+        //private readonly IBaseRepository<Category> _catRepo;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly Action<string> _logAction;
 
-        public CategoryService(IBaseRepository<Category> catRepo)
+        public CategoryService(/*IBaseRepository<Category> catRepo*/ IUnitOfWork unitOfWork)
         {
-            _catRepo = catRepo;
+            //_catRepo = catRepo;
+            _unitOfWork = unitOfWork;
             _logAction = message => Console.WriteLine(message);
         }
 
 
         public async Task<IEnumerable<SelectListItem>> GetCategoriesWithSelectListItem()
         {
-            var categories = await _catRepo.GetAll();
+            var categories = await _unitOfWork._category.GetAll();
             return categories.Select(c => new SelectListItem {
                 Value = c.Id.ToString(),
                 Text = c.Name
             });
+        }
+        public async Task<IEnumerable<Category>> GetCategories()
+        {
+            return await _unitOfWork._category.GetAll();
         }
     }
 }

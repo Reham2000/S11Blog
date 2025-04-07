@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -53,6 +54,25 @@ namespace Infrasitructure.Repository
                 return;
             }
 
+        }
+
+        public Task<List<T>> GetAllAsync(
+            Expression<Func<T, bool>> criteria = null,
+            Expression<Func<T, object>>[] includes = null)
+        {
+            IQueryable<T> query = _dbSet;
+            if(criteria is not null)
+            {
+                query = query.Where(criteria);
+            }
+            if (includes is not null)
+            {
+                foreach (var include in includes)
+                {
+                    query = query.Include(include);
+                }
+            }
+            return query.ToListAsync();
         }
     }
 }

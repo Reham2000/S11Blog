@@ -51,6 +51,21 @@
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="text-center my-2">
+            <a asp-action="Index"  class="rounded p-2 text-white bg-danger badage bg-primary me-2">All</a>
+            @foreach (var category in ViewBag.Categories)
+            {
+                <a asp-action="Index" asp-route-categoryId="@category.Id" class="rounded p-2 text-white bg-danger badage bg-primary me-2">@category.Name</a>
+            }
+        </div>
+        @* commit  => savechanges*@
+        @if (!Model.Any())
+        {
+            <div class="alert alert-danger my-4 text-center" role="alert">
+                No Posts Found for this category
+            </div>
+            
+        }
         <div class="row gy-4">
             @foreach(var post in Model)
             {
