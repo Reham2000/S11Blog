@@ -1,22 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\.net projects\\S11_Blog\\",
+  "WorkspaceRootPath": "D:\\S11Blog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|d:\\.net projects\\s11_blog\\infrasitructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|solutionrelative:infrasitructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|d:\\.net projects\\s11_blog\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|d:\\s11blog\\domain\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|solutionrelative:domain\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\views\\shared\\_theme1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\shared\\_theme1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|d:\\s11blog\\domain\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|solutionrelative:domain\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|d:\\s11blog\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|d:\\.net projects\\s11_blog\\infrasitructure\\migrations\\20250407194047_identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|solutionrelative:infrasitructure\\migrations\\20250407194047_identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|d:\\s11blog\\infrasitructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|solutionrelative:infrasitructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\.net projects\\s11_blog\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|d:\\s11blog\\infrasitructure\\migrations\\20250407194047_identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0067B630-4C24-4503-B143-B8104E0785CB}|Infrasitructure\\Infrasitructure.csproj|solutionrelative:infrasitructure\\migrations\\20250407194047_identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +62,144 @@
       "DocumentGroups": [
         {
           "DockedWidth": 167,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\S11Blog\\Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T08:57:06.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20250407194047_IdentityTables.cs",
-              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Infrasitructure\\Migrations\\20250407194047_IdentityTables.cs",
-              "RelativeDocumentMoniker": "Infrasitructure\\Migrations\\20250407194047_IdentityTables.cs",
-              "ToolTip": "D:\\.net projects\\S11_Blog\\Infrasitructure\\Migrations\\20250407194047_IdentityTables.cs",
-              "RelativeToolTip": "Infrasitructure\\Migrations\\20250407194047_IdentityTables.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJIAAAAZAAAAAAAAAA==",
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\S11Blog\\Domain\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Domain\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\S11Blog\\Domain\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Domain\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T19:40:48.989Z",
+              "WhenOpened": "2025-04-11T08:45:17.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Theme1.cshtml",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Shared\\_Theme1.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Shared\\_Theme1.cshtml",
+              "ToolTip": "D:\\S11Blog\\Web\\Views\\Shared\\_Theme1.cshtml",
+              "RelativeToolTip": "Web\\Views\\Shared\\_Theme1.cshtml",
+              "ViewState": "AgIAACkAAAAAMzMzMzMbwDUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T08:39:20.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\S11Blog\\Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T08:31:06.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\S11Blog\\Web\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Web\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T08:05:28.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\S11Blog\\Web\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "Web\\Controllers\\AccountController.cs*",
+              "ViewState": "AgIAADEAAAAAAAAAAAAawDUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T07:32:33.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\S11Blog\\Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T08:06:48.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Web\\appsettings.json",
+              "ToolTip": "D:\\S11Blog\\Web\\appsettings.json",
+              "RelativeToolTip": "Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-11T08:25:38.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\S11Blog\\Domain\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Domain\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\S11Blog\\Domain\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Domain\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAYAAABgZmZmZmYkwBUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T07:37:39.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250407194047_IdentityTables.cs",
+              "DocumentMoniker": "D:\\S11Blog\\Infrasitructure\\Migrations\\20250407194047_IdentityTables.cs",
+              "RelativeDocumentMoniker": "Infrasitructure\\Migrations\\20250407194047_IdentityTables.cs",
+              "ToolTip": "D:\\S11Blog\\Infrasitructure\\Migrations\\20250407194047_IdentityTables.cs",
+              "RelativeToolTip": "Infrasitructure\\Migrations\\20250407194047_IdentityTables.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T19:40:48.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Web\\Program.cs",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Program.cs",
               "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "D:\\.net projects\\S11_Blog\\Web\\Program.cs",
+              "ToolTip": "D:\\S11Blog\\Web\\Program.cs",
               "RelativeToolTip": "Web\\Program.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAqwBwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,26 +208,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Infrasitructure\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "D:\\S11Blog\\Infrasitructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrasitructure\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\.net projects\\S11_Blog\\Infrasitructure\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\S11Blog\\Infrasitructure\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Infrasitructure\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T19:29:43.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T19:29:43.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\.net projects\\S11_Blog\\Domain\\Models\\User.cs",
+              "DocumentMoniker": "D:\\S11Blog\\Domain\\Models\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
-              "ToolTip": "D:\\.net projects\\S11_Blog\\Domain\\Models\\User.cs",
+              "ToolTip": "D:\\S11Blog\\Domain\\Models\\User.cs",
               "RelativeToolTip": "Domain\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T19:30:36.344Z",
               "EditorCaption": ""

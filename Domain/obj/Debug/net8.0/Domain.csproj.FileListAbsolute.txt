@@ -11,3 +11,16 @@ D:\.net projects\S11_Blog\Domain\obj\Debug\net8.0\Domain.pdb
 D:\.net projects\S11_Blog\Domain\obj\Debug\net8.0\ref\Domain.dll
 D:\.net projects\S11_Blog\Domain\obj\Debug\net8.0\Domain.sourcelink.json
 D:\.net projects\S11_Blog\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\S11Blog\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\S11Blog\Domain\bin\Debug\net8.0\Domain.dll
+D:\S11Blog\Domain\bin\Debug\net8.0\Domain.pdb
+D:\S11Blog\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\S11Blog\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\S11Blog\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\S11Blog\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\S11Blog\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\S11Blog\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\S11Blog\Domain\obj\Debug\net8.0\Domain.dll
+D:\S11Blog\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\S11Blog\Domain\obj\Debug\net8.0\Domain.pdb
+D:\S11Blog\Domain\obj\Debug\net8.0\ref\Domain.dll
