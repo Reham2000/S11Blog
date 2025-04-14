@@ -36,6 +36,7 @@ namespace Web.Controllers
             if (result.Succeeded)
             {
                 //return RedirectToAction("Login", "Account");
+                //await _userManager.AddToRoleAsync(user, "User");
                 await _signInManager.SignInAsync(user, isPersistent: false);
                 return RedirectToAction("Index", "Posts");
 

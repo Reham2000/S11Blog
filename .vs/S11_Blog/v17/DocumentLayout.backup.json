@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "D:\\S11Blog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\views\\role\\asignrolestouser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\role\\asignrolestouser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\views\\role\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\role\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|d:\\s11blog\\domain\\viewmodels\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|solutionrelative:domain\\viewmodels\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\views\\role\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\role\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|d:\\s11blog\\web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2617AAB3-A3C5-4106-8012-126EF3973590}|Web\\Web.csproj|solutionrelative:web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{480FFC5E-37E9-4D0E-A192-EA3292BCC75C}|Domain\\Domain.csproj|d:\\s11blog\\domain\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,33 +90,85 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Web\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\S11Blog\\Web\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Web\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Role\\Users.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Role\\Users.cshtml",
+              "ToolTip": "D:\\S11Blog\\Web\\Views\\Role\\Users.cshtml",
+              "RelativeToolTip": "Web\\Views\\Role\\Users.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T08:57:06.111Z",
+              "WhenOpened": "2025-04-14T19:39:58.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\S11Blog\\Domain\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Domain\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "D:\\S11Blog\\Domain\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "Domain\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T08:45:17.089Z",
+              "DocumentIndex": 1,
+              "Title": "AsignRolesToUser.cshtml",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Role\\AsignRolesToUser.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Role\\AsignRolesToUser.cshtml",
+              "ToolTip": "D:\\S11Blog\\Web\\Views\\Role\\AsignRolesToUser.cshtml",
+              "RelativeToolTip": "Web\\Views\\Role\\AsignRolesToUser.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwDAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T19:23:58.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "RoleViewModel.cs",
+              "DocumentMoniker": "D:\\S11Blog\\Domain\\ViewModels\\RoleViewModel.cs",
+              "RelativeDocumentMoniker": "Domain\\ViewModels\\RoleViewModel.cs",
+              "ToolTip": "D:\\S11Blog\\Domain\\ViewModels\\RoleViewModel.cs",
+              "RelativeToolTip": "Domain\\ViewModels\\RoleViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T19:16:21.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateRole.cshtml",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Role\\CreateRole.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Role\\CreateRole.cshtml",
+              "ToolTip": "D:\\S11Blog\\Web\\Views\\Role\\CreateRole.cshtml",
+              "RelativeToolTip": "Web\\Views\\Role\\CreateRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T17:35:54.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Role\\Index.cshtml",
+              "ToolTip": "D:\\S11Blog\\Web\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "Web\\Views\\Role\\Index.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T17:26:18.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\S11Blog\\Web\\Controllers\\RoleController.cs*",
+              "RelativeToolTip": "Web\\Controllers\\RoleController.cs*",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAkwIoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T17:20:43.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "_Theme1.cshtml",
               "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Shared\\_Theme1.cshtml",
               "RelativeDocumentMoniker": "Web\\Views\\Shared\\_Theme1.cshtml",
@@ -100,12 +176,11 @@
               "RelativeToolTip": "Web\\Views\\Shared\\_Theme1.cshtml",
               "ViewState": "AgIAACkAAAAAMzMzMzMbwDUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T08:39:20.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T08:39:20.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Web\\Views\\Shared\\_LoginPartial.cshtml",
@@ -113,31 +188,17 @@
               "RelativeToolTip": "Web\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T08:31:06.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T08:31:06.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Web\\Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\S11Blog\\Web\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Web\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowCQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T08:05:28.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\S11Blog\\Web\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\S11Blog\\Web\\Controllers\\AccountController.cs*",
-              "RelativeToolTip": "Web\\Controllers\\AccountController.cs*",
-              "ViewState": "AgIAADEAAAAAAAAAAAAawDUAAAASAAAAAAAAAA==",
+              "ToolTip": "D:\\S11Blog\\Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADAAAACAZmZmZmYiwDUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T07:32:33.848Z",
               "EditorCaption": ""
@@ -145,6 +206,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\S11Blog\\Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T08:57:06.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\S11Blog\\Domain\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Domain\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\S11Blog\\Domain\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Domain\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T08:45:17.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\S11Blog\\Web\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Web\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T08:05:28.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\S11Blog\\Web\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Web\\Views\\_ViewImports.cshtml",
@@ -152,12 +250,11 @@
               "RelativeToolTip": "Web\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T08:06:48.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T08:06:48.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\S11Blog\\Web\\appsettings.json",
               "RelativeDocumentMoniker": "Web\\appsettings.json",
@@ -165,12 +262,11 @@
               "RelativeToolTip": "Web\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-11T08:25:38.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T08:25:38.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "D:\\S11Blog\\Domain\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Domain\\ViewModels\\RegisterViewModel.cs",
@@ -178,12 +274,11 @@
               "RelativeToolTip": "Domain\\ViewModels\\RegisterViewModel.cs",
               "ViewState": "AgIAAAYAAABgZmZmZmYkwBUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T07:37:39.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T07:37:39.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "20250407194047_IdentityTables.cs",
               "DocumentMoniker": "D:\\S11Blog\\Infrasitructure\\Migrations\\20250407194047_IdentityTables.cs",
               "RelativeDocumentMoniker": "Infrasitructure\\Migrations\\20250407194047_IdentityTables.cs",
@@ -195,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\S11Blog\\Web\\Program.cs",
               "RelativeDocumentMoniker": "Web\\Program.cs",
@@ -203,12 +298,11 @@
               "RelativeToolTip": "Web\\Program.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAqwBwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T19:36:10.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T19:36:10.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\S11Blog\\Infrasitructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrasitructure\\Data\\AppDbContext.cs",
@@ -220,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\S11Blog\\Domain\\Models\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
@@ -228,8 +322,7 @@
               "RelativeToolTip": "Domain\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T19:30:36.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T19:30:36.344Z"
             }
           ]
         }
