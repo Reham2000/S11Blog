@@ -1,5 +1,6 @@
 using Core.Services;
 using Domain.Models;
+using Infrasitructure;
 using Infrasitructure.Data;
 using Infrasitructure.IRepository;
 using Infrasitructure.Repository;
@@ -24,7 +25,26 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 );
 // add identity
 
-builder.Services.AddIdentity<User, IdentityRole>()
+builder.Services.AddIdentity<User, IdentityRole>(
+    options =>
+    {
+        options.Password.RequiredLength = 4;
+        options.Password.RequireDigit = false; // 02165
+        options.Password.RequireLowercase = false; // gfhkf
+        options.Password.RequireUppercase = true; // GHFJKL
+        options.Password.RequireNonAlphanumeric = false; // @#$%^&*()_+
+        options.Password.RequiredUniqueChars = 0;
+        options.SignIn.RequireConfirmedEmail = false; // email confirmation
+        options.User.RequireUniqueEmail = true; // unique email
+        // admin#123
+        options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+"; // allowed characters
+        
+        options.Lockout.AllowedForNewUsers = true; // lockout
+        options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromSeconds(30); // lockout time
+        options.Lockout.MaxFailedAccessAttempts = 3; // max failed attempts
+
+    }
+    ).AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
 
@@ -45,4 +65,15 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
+
+
+using (var scope = app.Services.CreateScope())
+{
+    var srvices = scope.ServiceProvider;
+    await DbInitalizer.SeedAdminData(srvices);// IServesProvider
+};
+
+
+
+
+    app.Run();

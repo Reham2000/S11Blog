@@ -48,18 +48,20 @@
         document.getElementById('roleForm').addEventListener('submit',function(e){
             e.preventDefault();
             let roleList = [];
-            document.querySelectorAll('.role-checkbox').forEach(checkbox) => {
+           document.querySelectorAll('.role-checkbox').forEach((checkbox) => {
                 roleList.push({
                     RoleName: checkbox.dataset.rolename,
                     RoleId: checkbox.dataset.roleid,
                     UserRole: checkbox.checked
                 });
-            }
+            });
 
             const input = document.querySelector('input[name="jsonRoles"]');
             input.value = JSON.stringify(roleList);
             // submit after set json data
             e.target.submit();
+
+
 
         });
     </script>

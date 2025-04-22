@@ -1,11 +1,13 @@
 ﻿using Domain.Models;
 using Domain.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
+using Newtonsoft.Json;
 namespace Web.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class RoleController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -132,11 +134,43 @@ namespace Web.Controllers
         [HttpPost]
         public async Task<IActionResult> AsignRolesToUser(string userId ,string jsonRoles)
         {
+            // get user by id
+            var user = await _userManager.FindByIdAsync(userId);
             if(string.IsNullOrWhiteSpace(jsonRoles))
             {
-            return RedirectToAction("Index","Role");
+                ModelState.AddModelError("Role", "Please select at least one role");
+                return View();
             }
-            return RedirectToAction("Index","posts");
+            // get roles from json
+            List<RoleViewModel> MyRoles = JsonConvert.DeserializeObject<List<RoleViewModel>>(jsonRoles);
+
+
+            if(user is not null)
+            {
+                // get user roles
+                var userRoles = await _userManager.GetRolesAsync(user);
+                foreach (var role in MyRoles)
+                {
+                    // check if user has this role but not selected
+                    if (userRoles.Contains(role.RoleName.Trim()) && !role.UserRole) // !true == false
+                    {
+                        await _userManager.RemoveFromRoleAsync(user, role.RoleName.Trim());
+                    }
+                    // check if user don't have this role but selected
+                    if (!userRoles.Contains(role.RoleName.Trim()) && role.UserRole) // !true == false
+                    {
+                        await _userManager.AddToRoleAsync(user, role.RoleName.Trim());
+                    }
+                }
+                return RedirectToAction("users"); // roles
+
+            }
+            else
+            {
+                ModelState.AddModelError("Role", "User id not valid");
+                return View();
+            }
+
         }
 
 
